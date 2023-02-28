@@ -1,5 +1,5 @@
 # solder.py-docker
 
 ```
-docker build -t maggi373/solderpy:latest .
+docker build -t thorfusion/solderpy:latest .
 ```
