@@ -1,3 +1,4 @@
-[submodule "solder.py"]
-	path = solder.py
+
+[submodule "solderpy"]
+	path = solderpy
 	url = https://github.com/Thorfusion/solder.py

@@ -1,6 +1,8 @@
 FROM python:alpine3.10
+
 WORKDIR /app
-COPY ./solder.py/  /app
+COPY /solderpy  /app
+EXPOSE 5000
 RUN python -m pip install pipenv
 RUN python -m pipenv install
 
