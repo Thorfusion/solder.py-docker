@@ -12,4 +12,4 @@ RUN pip install pipenv
 
 RUN pipenv install --system --deploy --ignore-pipfile
 
-CMD ["pipenv", "run", "gunicorn", "-w", "4", "--threads", "16", "-b", "0.0.0.0:5000", "app:app"]
+CMD ["pipenv", "run", "gunicorn", "-w", "1", "--threads", "4", "-b", "0.0.0.0:5000", "app:app"]
