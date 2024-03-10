@@ -2,6 +2,8 @@ FROM python:3.10-alpine
 
 WORKDIR /app
 COPY /solderpy  /app/
+RUN mkdir /app/static/mods
+VOLUME /app/static/mods
 ENV APP_URL=0.0.0.0
 ENV APP_PORT=5000
 ENV APP_DEBUG=false
